@@ -22,3 +22,29 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+
+ul {
+  list-style: none;
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.container {
+  width: 1200px;
+  min-height: 400px;
+  margin: 0 auto;
+  background-color: cornflowerblue;
+}
+
+/*.img {
+  flex-basis: calc(100%-3 * 30px) / 3;
+}*/
+
+
