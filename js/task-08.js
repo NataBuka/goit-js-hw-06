@@ -7,13 +7,15 @@ function onLoginForm(event){
     const elements = event.currentTarget.elements;
     const email = elements.email.value;
     const password = elements.password.value;
+    if (email === "" || password === "") return alert("Заповніть усі поля");
+
 
     const formData = {
         email: email,
         password: password
     }
     console.log(formData);
-    if (email === "" || password === "") return alert("Заповніть усі поля");
     form.reset();
 }
+
 

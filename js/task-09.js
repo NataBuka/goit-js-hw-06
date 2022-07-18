@@ -10,6 +10,7 @@ button.addEventListener("click", changeColor);
 
 
 function changeColor() {
-  body.style.backgroundColor = getRandomHexColor();
-  text.textContent = `${getRandomHexColor()}`;
+  const newColor = getRandomHexColor();
+  body.style.backgroundColor = newColor;
+  text.textContent = `${newColor}`;
 }
